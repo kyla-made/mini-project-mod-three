@@ -301,4 +301,73 @@ footer {
   padding: 0 16px
 }
 
+/* 
 
+RESPONSIVENESS 
+
+*/
+
+/*
+
+SMALLER SCREEN
+
+*/
+
+@media (max-width: 1024px) {
+  .section__description--para {
+    font-size: 20px;
+  }
+
+  .section__card--contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 16px
+  }
+
+  .course {
+    gap: 4px;
+  }
+
+  .course__title {
+    margin-left: 0;
+    font-size: 40px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__img--wrapper {
+    max-width: 500px;
+  }
+
+  .hero__description {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .section__description {
+    flex-direction: column;
+  }
+
+  .section__description--wrapper {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 400px;
+  }
+
+  .section__card--contact {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
